@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+	
+	<title>The Shackels - map</title>
+
+	<meta charset="utf-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+	
+	<link rel="shortcut icon" type="image/x-icon" href="img/favicon.ico" />
+
+	<link rel="stylesheet" href="https://npmcdn.com/leaflet@1.0.0-rc.3/dist/leaflet.css" />
+	<link rel="stylesheet" href="/static/css/map.css" />
+</head>
+<body>
+
+<div id='map'></div>
+<div id='search'>
+  <input type='text' id='searchbox' />
+  <button id='gobutton'>GO</button>
+  <ul id='resultlist'>
+  </ul>
+</div>
+<div id='centre'></div>
+
+<script src="https://npmcdn.com/leaflet@1.0.0-rc.3/dist/leaflet.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/fuse.js/2.6.1/fuse.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/OverlappingMarkerSpiderfier-Leaflet/0.2.6/oms.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/socket.io/4.3.2/socket.io.js"></script>
+<script src="/static/js/map.js"></script>
+
+
+
+</body>
+</html>
